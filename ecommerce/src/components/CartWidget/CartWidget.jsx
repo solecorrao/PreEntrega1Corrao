@@ -1,12 +1,13 @@
-import carrito from "./assets/carrito.svg"
+import carrito from './assets/imagen_carrito_ecommerce.svg'
+
 
 const CartWidget = () => {
-
-    return (
+    return(
         <div>
-            {/* <img src={carrito} alt="cart-widget"/> */}
-            🛒
+            {/* <img src={ carrito } alt='carrito compras' />  */}
+            🛒 
             0
+
         </div>
     )
 }
