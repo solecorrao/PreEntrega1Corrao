@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import ItemListContainer from './components/ItemListContainer/ItemListContainer'
 import NavBar from './components/NavBar/NavBar'
 import CardContainer from './components/CardContainer/CardContainer'
-import { CardContainerItemDetail } from './components/CardContainerItemDetail/CardContainerItemDetail'
+import { ItemDetailContainer } from './components/ItemDetailContainer/ItemDetailContainer'
 
 
 
@@ -17,10 +17,8 @@ function App() {
           <Route path='/category/:cid' element={<CardContainer />} />
 
           <Route path='*' element={ <Navigate to='/' /> } /> 
-          <Route path='/detail/:pid' element={ <CardContainerItemDetail /> } />   
+          <Route path='/detail/:pid' element={ <ItemDetailContainer /> } />   
 
-
-          {/* <Route path='/est/:pid' element={ <CardContainerBodyItem /> } / >  */}
         </Routes>
 
         

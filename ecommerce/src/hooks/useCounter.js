@@ -19,3 +19,5 @@ export const useCounter = (min, max) => {
 
     return {counter, handleRestar, handleSumar}
 }
+
+export default useCounter
